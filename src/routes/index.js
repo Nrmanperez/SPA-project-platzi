@@ -5,10 +5,8 @@ import Character from "../pages/Character";
 import getHash from "../utils/getHash";
 import resolveRoutes from "../templates/resolveRoutes";
 
-const URLactual = window.location;
-
 const routes = {
-    'https://nrmanperez.github.io/SPA-project-platzi/': Home,
+    '/': Home,
     '/:id': Character,
     '/contact': 'Contact',
 }
